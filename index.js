@@ -1,6 +1,8 @@
 // Import stylesheets
 import './style.css';
+import main from './feat-01'
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+const str = '12345678'
+
+console.log(str, main(str));
+
