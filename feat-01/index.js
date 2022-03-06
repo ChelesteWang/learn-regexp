@@ -7,3 +7,5 @@ export default function main(str) {
 }
 
 
+// /(?!^)(?=(\d{3})+$)/g
+
